@@ -1,0 +1,79 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('fondodecocina.jpg'); /* Imagen de fondo */
+    background-size: cover; /* Cubrir toda la pantalla */
+    background-attachment: fixed; /* Fijo durante el desplazamiento */
+    background-position: center; /* Centrar la imagen */
+    
+}
+
+header {
+    background-color: rgba(128, 0, 128, 0.9); /* Morado */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em; /* Tamaño del título principal aumentado */
+    margin: 0;
+}
+
+h2, h3 {
+    font-size: 1.8em;
+    color: #8a2be2; /* Morado más claro */
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semitransparente para mejorar la lectura */
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.cuadro-recetas {
+    width: 100%;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #ffffff; /* Fondo blanco para el cuadro de recetas */
+    border: 2px solid #333;
+    border-radius: 10px;
+}
+
+ol {
+    padding-left: 20px;
+    list-style-type: decimal; /* Estilo de lista numerada */
+}
+
+.imagenes {
+    display: flex; /* Usar flexbox para la galería de imágenes */
+    gap: 10px; /* Espacio entre imágenes */
+    justify-content: center; /* Centrar imágenes */
+    padding: 20px 0; /* Espaciado vertical */
+}
+
+.imagenes img {
+    width: 150px; /* Ancho de las imágenes */
+    height: auto; /* Altura automática para mantener la relación de aspecto */
+    border-radius: 8px; /* Esquinas redondeadas */
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3); /* Sombra para las imágenes */
+}
+
+footer {
+    background-color: #333; /* Color de fondo del pie de página */
+    color: white; /* Color del texto en el pie de página */
+    text-align: center; /* Centramos el texto */
+    padding: 10px; /* Espaciado interior */
+}
